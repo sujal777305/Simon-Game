@@ -44,6 +44,27 @@ body {
     background-color: black;
 }
 
+#startBtn {
+    padding: 12px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    margin: 20px;
+    transition: 0.2s;
+}
+
+#startBtn:hover {
+    transform: scale(1.05);
+}
+
+#startBtn:active {
+    transform: scale(0.95);
+}
+
 @media (max-width: 900px) {
     .btn {
         height: 150px;

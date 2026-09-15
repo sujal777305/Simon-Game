@@ -64,12 +64,12 @@ function btnPress() {    // Btn pressed by user
     let btn = this;
     userFlash(btn);
 
-    userColor = btn.getAttribute("id");
+    let userColor = btn.getAttribute("id");
     userSq.push(userColor);
     checkAns(userSq.length - 1);
 }
 let allBtns = document.querySelectorAll('.btn');
-for (btn of allBtns) {
+for (let btn of allBtns) {
     btn.addEventListener("click", btnPress);
 }
 
